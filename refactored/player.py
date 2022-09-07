@@ -26,7 +26,7 @@ class LargeEnemy(Player):
 		super().__init__(x, y, size=100, color=Color.BLUE)
 
 class KeithEnemy(Player):
-	img = pygame.image.load("C:/Users/keith/Youtube/Code/Games/Refactor/assets/selfie.jpg")
+	img = pygame.image.load("C:/Users/Dev/Desktop/AfterRefactoringPygame/refactored/assets/selfie.jpg")
 	def __init__(self, x, y):
 		super().__init__(x, y, size=75, color=Color.BLUE)
 
